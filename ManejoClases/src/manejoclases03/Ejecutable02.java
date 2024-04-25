@@ -20,7 +20,12 @@ public class Ejecutable02 {
         h1.establecerNombre("Vaca Ortíz");
         h2.establecerNombre("Militar");
         h3.establecerNombre("Manuel IM");
-        
+        /* 
+        Se imprime en pantalla en pantalla los objetos a los cuales se les 
+        asigna los metodos NumeroCamas con su respectiva inicializacion
+        Vaca Ortiz, el unico metodo que recibe un parametro, el resto de metodos
+        automaticamente se los designa en 0
+        */
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
                 h1.obtenerNumeroCamas(), h1.obtenerPresupuesto());
         /*
